@@ -1,0 +1,35 @@
+:root{
+    --Ga1:var(--bg1) !important;
+    --Ga9:var(--text2) !important;
+}
+#nav-searchform.is-focus,
+#nav-searchform.is-actived .search-bar,
+#nav-searchform.is-focus .search-bar,
+.search-pannel,
+.user-panel-ctnr .user-panel,
+.user-panel-ctnr .user-panel .content-ctnr .logout-btn,
+.download-panel-ctnr,
+.download-panel-ctnr .content-ctnr .title,
+.download-panel-ctnr .content-ctnr .items .item .name,
+.download-panel-ctnr .content-ctnr .items .item .light-name{
+    background: var(--bg2) !important;
+    border-color: var(--line_light) !important;
+    color: var(--text1) !important;
+}
+.video-container-v1{
+    background:var(--bg1);
+}
+#multi-page *{
+    color:var(--color2);
+}
+#viewbox_report>.video-title{
+    font-weight: 600 !important;
+}
+.bili-header__bar>ul.left-entry>li:last-child,
+.bili-header__bar>ul.left-entry>li:first-child,
+.palette-button-wrap{
+    display: none !important;
+}
+.media-card-content-head-title{
+    color:var(--text1) !important;
+}
