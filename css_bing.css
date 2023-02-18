@@ -1,12 +1,15 @@
 a:visited,
 #b_results>li a,
 ul.b_vList>.b_infoRichCardTitle>h2>a{
-    color:var(--purple-preferred) !important;
+    color:var(--purple-preferred);
 }
 .df_alaskcarousel #df_listaa .b_vPanel .df_hd .b_primtxt{
     color:var(--blue-dark) !important;
 }
-main .b_underSearchbox a{
+main .b_underSearchbox a,
+.qna_elc .rwrl,
+.df_c .rwrl,
+#b_results .df_c .b_entityTitle{
     color:var(--text2) !important;
 }
 main .b_underSearchbox li{
@@ -40,6 +43,7 @@ nav>ul>li>a{
 }
 .mc_vtvc,
 .video_metadata,
+.mc_vtvc_meta_w .mc_vtvc_meta,
 #b_context .b_entityTP,
 #sw_as>.sa_as,
 #sw_as>.sa_as *{
@@ -83,11 +87,10 @@ ol#b_context>.b_ans{
 ol#b_context>.b_ans *{
     border-color: var(--line_light) !important;
 }
-ol#b_context>.b_ans h2{
-    color:var(--text2) !important;
-}
-.richrsrailsuggestion .richrsrailsuggestion_text{
-    color:var(--text2) !important;
+ol#b_context>.b_ans h2,
+.richrsrailsuggestion .richrsrailsuggestion_text,
+.b_rs>ul.b_vList>li>a>.b_suggestionText{
+    color:var(--text1) !important;
 }
 .richrsrailsuggestion .richrsrailsuggestion_text strong{
     color:var(--red) !important;
@@ -97,14 +100,26 @@ ol#b_context>.b_ans h2{
     color:var(--text1) !important;
     border-radius: var(--border-radius) !important;
 }
-.b_rs>ul.b_vList>li>a>.b_suggestionText{
-    color:var(--text1) !important;
-}
 span.algoSlug_icon{
     border-color: var(--line_light) !important;
 }
-nav>ul.sb_pagF>li>a.sb_pagS{
+nav>ul.sb_pagF>li>a.sb_pagS,
+[id*="tabcontrol"][id*="nav"],
+#est_cn, #est_en,
+#est_switch .est_selected::after,
+.pagereco_CB,
+.pagereco_CBImageCard,
+.pagereco_CBTextCard
+{
     background-color: var(--bg2) !important;
+    color:var(--text1) !important;
+    border-color: var(--line_light) !important;
+}
+.pagereco_CBTextCard .b_text{
+    color:var(--text1) !important;
+}
+.rc_herotabheader .tab-head{
+    border-color:var(--bg2) !important;
 }
 footer#b_footer,
 header#b_header{
