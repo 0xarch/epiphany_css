@@ -11,7 +11,9 @@
 .download-panel-ctnr,
 .download-panel-ctnr .content-ctnr .title,
 .download-panel-ctnr .content-ctnr .items .item .name,
-.download-panel-ctnr .content-ctnr .items .item .light-name{
+.download-panel-ctnr .content-ctnr .items .item .light-name,
+#page-index .col-1
+#page-index .col-2 .section{
     background: var(--bg2) !important;
     border-color: var(--line_light) !important;
     color: var(--text1) !important;
@@ -26,7 +28,6 @@
     font-weight: 600 !important;
 }
 .bili-header__bar>ul.left-entry>li:last-child,
-.bili-header__bar>ul.left-entry>li:first-child,
 .palette-button-wrap{
     display: none !important;
 }
