@@ -12,8 +12,9 @@
 .download-panel-ctnr .content-ctnr .title,
 .download-panel-ctnr .content-ctnr .items .item .name,
 .download-panel-ctnr .content-ctnr .items .item .light-name,
-#page-index .col-1
-#page-index .col-2 .section{
+#page-index .col-1,
+#page-index .col-2 .section,
+.n .n-inner{
     background: var(--bg2) !important;
     border-color: var(--line_light) !important;
     color: var(--text1) !important;
