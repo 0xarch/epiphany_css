@@ -1,0 +1,128 @@
+:root{
+    --light-color-1:#fafafa ;
+    --light-color-2:#ebebeb ;
+    --light-color-3:#d9d9d9;
+    --dark-color-1:#242424 ;
+    --dark-color-2:#303030 ;
+    --dark-color-3:#444444;
+    --light-border:#fefefe ;
+    --dark-border:#3a3a3a ;
+    --light-text-1:#242424 ;
+    --light-text-2:#303030 ;
+    --dark-text-1:#dbdbdb ;
+    --dark-text-2:#ebebeb ;
+    --border-radius:10px ;
+
+    --blue-lighter:#99c1f1;
+    --blue-light:#62a0ea;
+    --blue:#3584e4;
+    --blue-dark:#1c71d8;
+    --blue-darker:#1a5bf4;
+
+    --green-lighter:#8ff0a4;
+    --green-light:#57e389;
+    --green:#33d17a;
+    --green-dark:#2ec27e;
+    --green-darker:#26a269;
+
+    --yellow-lighter:#f9f06b;
+    --yellow-light:#f8e45c;
+    --yellow:#f6d32d;
+    --yellow-dark:#f5c211;
+    --yellow-darker:#e5a50a;
+
+    --orange-lighter:#ffbe6f;
+    --orange-light:#ffa348;
+    --orange:#ff7800;
+    --orange-dark:#e66100;
+    --orange-darker:#e64600;
+
+    --red-lighter:#f66151;
+    --red-light:#ed333b;
+    --red:#e01b24;
+    --red-dark:#c01c28;
+    --red-darker:#a51d2d;
+
+    --purple-lighter:#dc8add;
+    --purple-light:#c061cb;
+    --purple:#9141ac;
+    --purple-dark:#813d9c;
+    --purple-darker:#613583;
+
+    --brown-lighter:#cdab8f;
+    --brown-light:#b5835a;
+    --brown:#986a44;
+    --brown-dark:#865e3c;
+    --brown-darker:#63452c;
+
+}
+body{
+    background-color: var(--bg1) !important;
+    color: var(--text1) !important;
+}
+@media (prefers-color-scheme: light){
+    :root{
+        --bg1:var(--light-color-1) !important;
+        --bg2:var(--light-color-2) !important;
+        --bg3:var(--light-color-3) !important;
+        --bg1_float:var(--bg2) !important;
+        --graph_bg_thin:var(--bg2) !important;
+        --graph_bg_thick:var(--graph_bg_thin) !important;
+        --graph_bg_regular:var(--graph_bg_thin) !important;
+        --line_regular:var(--light-border);
+        --line_light:var(--line_regular) !important;
+        --text1:var(--light-text-1) !important;
+        --text2:var(--light-text-2) !important;
+
+        --blue-preferred:var(--blue-light);
+        --green-preferred:var(--green-light);
+        --yellow-preferred:var(--yellow-light);
+        --orange-preferred:var(--orange-light);
+        --red-preferred:var(--red-light);
+        --purple-preferred:var(--purple-light);
+        --brown-preferred:var(--brown-light);
+    }
+}
+@media (prefers-color-scheme: dark){
+    :root{
+        --bg1:var(--dark-color-1) !important;
+        --bg2:var(--dark-color-2) !important;
+        --bg3:var(--dark-color-3) !important;
+        --bg1_float:var(--bg2) !important;
+        --graph_bg_thin:var(--bg2) !important;
+        --graph_bg_thick:var(--graph_bg_thin) !important;
+        --graph_bg_regular:var(--graph_bg_thin) !important;
+        --line_regular:var(--dark-border) !important;
+        --line_light:var(--line_regular) !important;
+        --text1:var(--dark-text-1) !important;
+        --text2:var(--dark-text-2) !important;
+
+        --blue-preferred:var(--blue-dark);
+        --green-preferred:var(--green-dark);
+        --yellow-preferred:var(--yellow-dark);
+        --orange-preferred:var(--orange-dark);
+        --red-preferred:var(--red-dark);
+        --purple-preferred:var(--purple-dark);
+        --brown-preferred:var(--brown-dark);
+    }
+}
+/* Arch Wiki */
+body.skin-vector div.mw-page-container{
+    background-color: var(--bg1) !important;
+    color:var(--text1) !important;
+}
+#content{
+    background-color: var(--bg1) !important;
+    color: var(--text2) !important;
+}
+#content table,
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content pre,
+#content code,
+#content tt{
+    color:var(--text2) !important;
+}
